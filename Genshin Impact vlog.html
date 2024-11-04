@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact by MIYOHO</title>
+    <style>
+     .ball{
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            position: relative;
+            animation: move 5s infinite, moveincircle 5s infinite;
+        }
+        @keyframes moveincircle{
+            0% { background-color: red;
+                 transform: translate(0,0);
+            }
+            25%{
+                transform: translate(100px,0);
+            }
+            50% {background-color: green;
+                transform: translate(100px,100px);
+            }
+            75%{
+                transform: translate(0,100px);
+            }
+
+            100% {background-color: blue;
+            transform: translate(0,0)
+            }
+        }
+        
+           
+    .box { 
+        width: 90px;
+        height: 20px;
+        background-color: aqua;
+        transition: weidth 5s, background-color 5s;
+
+    }
+    .box:hover{
+        width: 120px;
+        background-color: aqua;
+    }
+    
+    .fade {
+        animation: fade 3s;
+    }
+
+    @keyframes fade {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+     .logo {
+        text-align: center;
+        background-image: url(Genshin_Impact_Estrellado.jpg);
+     }
+    .centrar {
+        text-align: center;
+    }
+      .movimiento {
+        position: relative;
+        animation: move 4s;
+      }
+      @keyframes move {
+        0% {left:0px;}
+        50% {left:500px;}
+        100% {left:0px;}
+      }
+      .barradeapartados {
+        text-align: center;
+        background-color: black;
+        font-size: larger;
+    }
+    </style>
+</head>
+<header>
+    <div class="logo">
+<img src="Genshin-Impact-Logo-EN.png" 
+    width="900" 
+    height="210">
+    </div>
+    <div class="barradeapartados">
+        <a href="Enemigos.html">Enemigos-</a><a href="Naciones.html">Naciones-</a><a href="Personajes.html">Personajes</a>
+        </div>
+</header>
+<body>
+    <h1>Genshin Impact:</h1>
+    <ul>
+    <li>
+        <p>Genshin Impact es un JRPG lineal de mundo abierto en el que controlamos a un viajero de otro mundo que perdio a su gemelo en el basto continente de teyvat lleno de culturas,deidades,monstruos 
+        de fantasia,poderes y secretos ocultos por el propio mundo que deberemos descubrir para saber que ocurrio con nuestro gemelo y de que manera estamos conectados a una gerra de hace 500 de teyvat.
+    </p>
+    </li>
+    <li>
+        <p>El juego salio el 28 de septiembre de 2020 que se hizo mundialmente famoso fuera del mercado de videjuegos asiatico que estaban poco familiarizados con el estilo de juego gacha que tenia y su buildeo de personajes.</p>
+    </li>
+    </ul>
+    <div class="movimiento">
+    <div class="fade" >
+<img src="genshin-impact.jpg" alt="">
+    </div>
+    </div>
+<nav>
+    <ul>
+        <li><a href="Personajes.html">Personajes</a></li>
+        <li><a href="Enemigos.html">Enemigos</a></li>
+        <li><a href="Naciones.html">Naciones</a></li>
+    </ul>
+</nav>
+
+<main>
+    
+    <section id="Incio"> 
+        Para descargar el juego visita la pagina oficial pinchando aqui --> <a href="https://genshin.hoyoverse.com/es">Genshin-Impact  </a> <-- 
+    </section>
+    
+    <section id="Incio">
+        Alguna duda extra del juego <a href="contacto.html"> Contactanos </a>
+    </section>
+</main>
+
+</body>
+
+</html>
